@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/robertov82008/curso-react-redux#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --progress --colors --inline --hot"
   },
   "keywords": [],
   "description": "",
