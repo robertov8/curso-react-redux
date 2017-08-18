@@ -2,6 +2,7 @@ import React from 'react'
 
 export default props => (
     <div>
-        {props.children}
+        <h1>Family</h1>
+        { React.cloneElement(props.children, {...props}) }
     </div>
 );
