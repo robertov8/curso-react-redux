@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { changeValue } from './fieldAction';
+import { changeValue } from './fieldActions';
 
 class Field extends Component {
     render() {
